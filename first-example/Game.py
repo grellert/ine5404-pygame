@@ -14,9 +14,9 @@ class Game:
         # Fundo da tela preto
         self.window.fill(COLORS["black"])
 
-        # Draw the player on the screen
+        # Desenha jogador na tela
         self.player.update()
         self.window.blit(self.player.surf, self.player.rect)
 
-        # # Update the display
+        # update de todo o display
         pygame.display.flip()
